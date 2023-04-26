@@ -10,8 +10,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'marbyProReg': ['MabryPro-Regular', 'sans-serif'],
-        'marbyProBold': ['MabryPro-Bold', 'sans-serif']
+        // 'marbyProReg': ['MabryPro-Regular', 'sans-serif'],
+        // 'marbyProBold': ['MabryPro-Bold', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif']
       }
     },
   },
