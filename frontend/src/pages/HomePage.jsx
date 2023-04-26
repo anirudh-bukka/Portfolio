@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+// import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+// import "react-vertical-timeline-component/style.min.css";
 
-import ReactLogo from '../assets/logos/react.svg';
-import MongoLogo from '../assets/logos/mongodb.svg';
-import JavaLogo from '../assets/logos/java.svg';
-import SpringBoot from '../assets/logos/springboot.svg';
-import DataAnalysis from '../assets/logos/data_analysis.svg';
-import Python from '../assets/logos/python.svg';
-import Git from '../assets/logos/git.svg';
-import MySQL from '../assets/logos/sql.svg';
-import Github from '../assets/logos/github.svg';
+import ReactLogo from '../assets/icons/react.svg';
+import MongoLogo from '../assets/icons/mongodb.svg';
+import JavaLogo from '../assets/icons/java.svg';
+import SpringBoot from '../assets/icons/springboot.svg';
+import DataAnalysis from '../assets/icons/data_analysis.svg';
+import Python from '../assets/icons/python.svg';
+import Git from '../assets/icons/git.svg';
+import MySQL from '../assets/icons/sql.svg';
+import Github from '../assets/icons/github.svg';
 import dpBackground from '../assets/pictures/svg0.svg';
 import ProjectCard from '../components/ProjectCard';
 import InternshipCard from '../components/InternshipCard';
@@ -46,8 +46,8 @@ function HomePage() {
             </div>
         </div>
         <div className='flex flex-row justify-around pb-4 p-2 max-h-12'>
-            <Link to="https://leetcode.com/anidude09/" className='outline rounded-lg w-1/3 mx-5 text-center   hover:bg-[#f3a642] hover:-translate-x-1 hover:-translate-y-1 duration-200 hover:border-r-4 hover:border-b-4 hover:border-black'>LeetCode</Link>
-            <Link to="https://www.kaggle.com/anirudhbukka" className='outline rounded-lg w-1/3 mx-5 text-center   hover:bg-cyan-400 hover:-translate-x-1 hover:-translate-y-1 duration-200 hover:border-r-4 hover:border-b-4 hover:border-black'>Kaggle</Link>
+            <Link to="https://leetcode.com/anidude09/" className='border-2 rounded-lg w-1/3 mx-5 text-center hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'>LeetCode</Link>
+            <Link to="https://www.kaggle.com/anirudhbukka" className='border-2 rounded-lg w-1/3 mx-5 text-center hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'>Kaggle</Link>
         </div>
         <div className='flex flex-col mt-3 '>
             <p className='  text-3xl text-center font-bold text-[#007aff]'>Experience</p>
@@ -92,7 +92,7 @@ export default HomePage;
                             key={element.key}
                             date={element.date}
                             dateClassName="date"
-                            //   iconStyle={workIconStyles}
+                            //  iconstyle={workIconStyles}
                             //   icon={<WorkIcon />}
                         >
                             <h3 className="vertical-timeline-element-title">{element.title}</h3>
