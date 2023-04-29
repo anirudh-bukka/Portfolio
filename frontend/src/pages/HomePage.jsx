@@ -22,7 +22,10 @@ function HomePage() {
         <div className='flex lg:flex-row lg:justify-between'>
             <div className='flex flex-col p-2 w-2/3'>
                 <p className='text-6xl font-semibold'>Hi, I'm</p>
-                <p className="text-8xl pb-2 font-semibold text-[#007aff]">Anirudh</p>
+                <div className='flex flex-row'>
+                    <p className="text-8xl pb-2 font-semibold text-[#007aff]">Anirudh</p>
+                    <p className='text-8xl pb-2'>.</p>
+                </div>
                 <p className='text-xl'>I do Web Development in Java Spring Boot, MERN stack | Data Analysis and Machine Learning in Python | Guitar, Keyboard, Drums | Basketball</p>
                 <p className='text-lg font-bold'><i>Inspired by big dreams and dank memes.</i></p>
             </div>
@@ -33,15 +36,15 @@ function HomePage() {
         <div className='flex flex-col justify-between mb-3 mt-3'>
             <p className='text-center   lg:text-3xl sm:text-2xl mb-5 font-bold text-[#007aff]'>Skills</p>
             <div className='flex lg:flex-row lg:justify-evenly mb-5 sm:flex-col'>
-                    <img src={JavaLogo} alt="Java" className='lg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
-                    <img src={ReactLogo} alt="ReactJS" className='lg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
-                    <img src={MongoLogo} alt="MongoDB" className='lg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
-                    <img src={SpringBoot} alt="Spring Boot" className='lg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
-                    <img src={Python} alt="Python" className='lg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
-                    <img src={DataAnalysis} alt="Data Analysis" className='llg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
-                    <img src={Git} alt="Git" className='lg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
-                    <img src={Github} alt="GitHub" className='lg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
-                    <img src={MySQL} alt="MySQL" className='lg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
+                    <img src={JavaLogo} alt="Java" className='lg:h-[80px] lg:w-[80px] p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
+                    <img src={ReactLogo} alt="ReactJS" className='lg:h-[80px] lg:w-[80px] p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
+                    <img src={MongoLogo} alt="MongoDB" className='lg:h-[80px] lg:w-[80px] p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
+                    <img src={SpringBoot} alt="Spring Boot" className='lg:h-[80px] lg:w-[80px] p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
+                    <img src={Python} alt="Python" className='lg:h-[80px] lg:w-[80px] p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
+                    <img src={DataAnalysis} alt="Data Analysis" className='lg:h-[80px] lg:w-[80px] p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
+                    <img src={Git} alt="Git" className='lg:h-[80px] lg:w-[80px] p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
+                    <img src={Github} alt="GitHub" className='lg:h-[80px] lg:w-[80px] p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
+                    <img src={MySQL} alt="MySQL" className='lg:h-[80px] lg:w-[80px] p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]' />
                     {/* <img src={MySQL} alt="MySQL" className='lg:h-14 lg:w-14 p-2 sm:h-[50px] hover:bg-white hover:-translate-x-1 hover:-translate-y-1 duration-200 hover:border-r-4 hover:border-b-4 hover:border-black' /> */}
             </div>
         </div>
@@ -99,7 +102,7 @@ export default HomePage;
                         </div>
                     </div>
 
-                    
+
 <VerticalTimeline>
                 {timelineContent.map((element) => {
                     let isWorkIcon = element.icon === "work";

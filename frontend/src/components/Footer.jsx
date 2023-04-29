@@ -1,12 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+import Email from './Email';
 
 function Footer() {
   return (
     <div className='sm:p-1 mt-2 pb-2 mb-[1px] flex flex-col w-full border-t-2 bg-[#ffff] position-fixed sticky bottom-0'>
         <div className='flex flex-row justify-center pt-2'>
-            <Link className='p-2 mx-2 hover:text-[#007aff] duration-200 font-bold'>Email Me</Link>
-            <Link className='p-2 mx-2 bg-[#007aff] text-white rounded-lg hover:text-[#007aff] duration-200 font-bold'>Hire Me</Link>
+            <Link className='p-2 mx-2 hover:text-[#007aff] duration-200 font-bold'>Email</Link>
+            <Link className='p-2 mx-2 bg-[#007aff] text-white rounded-lg hover:bg-[#ffff] hover:text-[#007aff] hover:outline duration-200 font-bold'>Hire Me</Link>
             <Link className='p-2 mx-2 hover:text-[#007aff] duration-200 font-bold'>Resumé</Link>
             {/* <Link className='outline p-2 mx-2 rounded-lg bg-[#ffc900] font-marbyProReg hover:bg-[#90A8ED] hover:-translate-x-1 hover:-translate-y-1 duration-200 hover:border-r-2 hover:border-b-2 hover:border-black'>Resumé</Link> */}
         </div>

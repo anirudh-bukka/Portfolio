@@ -4,7 +4,7 @@ function ProjectCard() {
   return (
     <div className='flex flex-col'>
         <div className='flex flex-row justify-between'>
-            <p className='text-lg'>[Project Name]</p>
+            <p className='text-lg text-[#007aff]'>[Project Name]</p>
             <p className='text-lg'>[Project/Hackathon]</p>
         </div>
         <p className=''>[Description]</p>
