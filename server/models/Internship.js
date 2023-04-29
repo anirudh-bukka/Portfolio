@@ -24,3 +24,6 @@ const InternshipSchema = new mongoose.Schema(
         }
     }
 )
+
+const Internship = mongoose.model("Internship", UserSchema);
+export default Internship;

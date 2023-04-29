@@ -23,4 +23,7 @@ const ExperienceSchema = new mongoose.Schema(
             required: true
         }
     }
-)
+);
+
+const Experience = mongoose.model("Experience", UserSchema);
+export default Experience;
