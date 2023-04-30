@@ -6,8 +6,7 @@ import About from '../pages/About';
 import Blog from '../pages/Blog';
 
 function Navbar() {
-  return (
-    
+  return (   
     <div className="border-b-2 w-full p-1 mt-[1px] flex flex-row justify-between lg:max-h-16 lg:min-h-16 z-50 bg-[#ffff] sticky top-0">
         <div className="w-[30%] flex flex-row justify-between lg:p-2">
             <Link to="/" className='bg-white lg:max-h-12 p-2 rounded-lg hover:text-[#007aff] duration-200'>Home</Link>
