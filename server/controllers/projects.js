@@ -1,5 +1,4 @@
 import Project from "../models/Project.js";
-import User from "../models/User.js";
 import asyncWrapper from '../middleware/async.js';
 
 export const getAllProjects = asyncWrapper( async (req, res) => {

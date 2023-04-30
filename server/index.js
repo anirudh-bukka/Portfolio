@@ -11,6 +11,8 @@ import { fileURLToPath } from "url";
 import authRoutes from "./routes/auth.js";
 // import userRoutes from "./routes/users.js";
 import projectRoutes from "./routes/projects.js";
+import internshipRoutes from "./routes/internships.js";
+import hackathonRoutes from "./routes/hackathons.js";
 import { register } from "./controllers/auth.js";   
 // import { createPost } from "./controllers/posts.js";
 // import { verifyToken } from "./middleware/auth.js";
@@ -43,7 +45,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 /* ROUTES WITH FILES */
-app.post("/auth/projects", upload.single("picture"), register);
+app.post("/auth/projects", register);
 // app.post("/posts", verifyToken, upload.single("picture"), createPost);
 
 // /* ROUTES */
@@ -51,6 +53,8 @@ app.post("/auth/projects", upload.single("picture"), register);
 app.use("/auth", authRoutes);
 // app.use("/users", userRoutes);
 app.use("/projects", projectRoutes);
+app.use("/internships", internshipRoutes);
+app.use("/hackathons", hackathonRoutes);
 // // app.use("/users", userRoutes);
 // app.use("/posts", postRoutes);
 

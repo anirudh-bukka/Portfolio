@@ -10,7 +10,7 @@ const router = express.Router();
 
 router.get("/", getAllInternships);
 router.get("/:internshipID", getInternship);
-router.post("/:internshipID", createIntership);
+router.post("/add", createIntership);
 router.patch("/:internshipID", updateIntership);
 router.delete("/:internshipID");
 

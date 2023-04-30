@@ -25,5 +25,5 @@ const InternshipSchema = new mongoose.Schema(
     }
 )
 
-const Internship = mongoose.model("Internship", UserSchema);
+const Internship = mongoose.model("Internship", InternshipSchema);
 export default Internship;
