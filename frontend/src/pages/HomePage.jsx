@@ -30,7 +30,6 @@ function HomePage() {
                 <p className='text-lg font-bold'><i>Inspired by big dreams and dank memes.</i></p>
             </div>
             <div>
-                {/* <img src={dpBackground} alt="dp" className='lg:h-70 lg:w-full p-2' /> */}
                 <img src={dp} alt="dp" className='lg:h-70 lg:w-[300px] h-[300px] p-2' />
             </div>
         </div>
@@ -50,8 +49,8 @@ function HomePage() {
             </div>
         </div>
         <div className='flex flex-row justify-around pb-4 p-2 max-h-12'>
-            <Link to="https://leetcode.com/anidude09/" className='border-2 rounded-lg w-1/3 mx-5 text-center hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'>LeetCode</Link>
-            <Link to="https://www.kaggle.com/anirudhbukka" className='border-2 rounded-lg w-1/3 mx-5 text-center hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'>Kaggle</Link>
+            <Link to="https://leetcode.com/anidude09/" className='border-2 rounded-lg w-1/3 mx-5 text-center hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'>LeetCode</Link>
+            <Link to="https://www.kaggle.com/anirudhbukka" className='border-2 rounded-lg w-1/3 mx-5 text-center hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'>Kaggle</Link>
         </div>
         <div className='flex flex-col mt-3'>
             <p className='  text-3xl text-center font-bold text-[#007aff]'>Experience</p>

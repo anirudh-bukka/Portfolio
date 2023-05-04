@@ -24,7 +24,7 @@ function About() {
       <p className='text-xl py-3 text-center'>I am a Junior year student pursuing B.Tech in Information Technology from Hyderabad, India.
 Always open to network be it work or music. I have a deep interest in Data Science and Web development and always trying to contribute to open source organisations and projects. </p>
       <p className='text-xl py-3 text-center font-semibold'>I co-founded a networking community in Discord, where people (mostly students) can come grow, have fun and share knowledge! <br /> <i>We are back to the drawing board to expand the purpose, experience and one big suprise.</i></p>
-      <Link to="https://www.linkedin.com/company/efcctcommunity/" className='mx-auto border-2 rounded-lg w-1/3 text-center hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'>EFCCT</Link>
+      <Link to="https://www.linkedin.com/company/efcctcommunity/" className='mx-auto border-2 rounded-lg w-1/3 text-center hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'>EFCCT</Link>
       <div className='flex flex-col mt-5'>
         <p className='text-xl py-3 text-[#007aff] font-semibold italic text-center'>I am an avid music enthusiast.</p>
         <div className='flex flex-row justify-evenly'>
@@ -36,11 +36,11 @@ Always open to network be it work or music. I have a deep interest in Data Scien
       <div className='mt-5 flex flex-col justify-center'>
         <p className='text-[#007aff] font-semibold italic text-center'>Connect with me</p>
         <div className='flex flex-row justify-center'>
-          <img src={LinkedIn} alt="LinkedIn" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
-          <img src={Discord} alt="Discord" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
-          <img src={Twitter} alt="Twitter" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
-          <img src={Instagram} alt="Instagram" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
-          <img src={Facebook} alt="Facebook" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
+          <img src={LinkedIn} alt="LinkedIn" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
+          <img src={Discord} alt="Discord" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
+          <img src={Twitter} alt="Twitter" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
+          <img src={Instagram} alt="Instagram" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
+          <img src={Facebook} alt="Facebook" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
         </div>
       </div>
     </div>
