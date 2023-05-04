@@ -12,7 +12,7 @@ import Python from '../assets/icons/python.svg';
 import Git from '../assets/icons/git.svg';
 import MySQL from '../assets/icons/sql.svg';
 import Github from '../assets/icons/github.svg';
-import dpBackground from '../assets/pictures/svg0.svg';
+import dp from '../assets/pictures/profile-pic.png';
 import ProjectCard from '../components/ProjectCard';
 import InternshipCard from '../components/InternshipCard';
 
@@ -26,11 +26,12 @@ function HomePage() {
                     <p className="text-8xl pb-2 font-semibold text-[#007aff]">Anirudh</p>
                     <p className='text-8xl pb-2'>.</p>
                 </div>
-                <p className='text-xl'>I do Web Development in Java Spring Boot, MERN stack | Data Analysis and Machine Learning in Python | Guitar, Keyboard, Drums | Basketball</p>
+                <p className='text-xl'>I do Web Development in Java Spring Boot, MERN stack | Data Analysis and Machine Learning in Python | Guitar, Keyboard, Drums | Basketball, Cricket, Swim</p>
                 <p className='text-lg font-bold'><i>Inspired by big dreams and dank memes.</i></p>
             </div>
             <div>
-                <img src={dpBackground} alt="dp" className='lg:h-70 lg:w-full p-2' />
+                {/* <img src={dpBackground} alt="dp" className='lg:h-70 lg:w-full p-2' /> */}
+                <img src={dp} alt="dp" className='lg:h-70 lg:w-[300px] h-[300px] p-2' />
             </div>
         </div>
         <div className='flex flex-col justify-between mb-3 mt-3'>
