@@ -43,23 +43,6 @@ Always open to network be it work or music. I have a deep interest in Data Scien
           <img src={Facebook} alt="Facebook" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
         </div>
       </div>
-
-
-
-
-
-
-
-      <div className='mt-5 flex flex-col justify-center'>
-        <p className='text-[#007aff] font-semibold italic text-center'>Connect with me</p>
-        <div className='flex flex-row justify-center'>
-          <img src={LinkedIn} alt="LinkedIn" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
-          <img src={Discord} alt="Discord" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
-          <img src={Twitter} alt="Twitter" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
-          <img src={Instagram} alt="Instagram" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
-          <img src={Facebook} alt="Facebook" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
-        </div>
-      </div>
     </div>
   )
 }
