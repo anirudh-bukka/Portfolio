@@ -17,7 +17,7 @@ function About() {
       <div className='flex lg:flex-row justify-evenly sm:flex-col sm:justify-center'>
         <div className='flex flex-col text-center'>
           <p className='sm:my-2 mt-auto font-bold text-[#007aff] text-5xl text-center'>Anirudh Bukka</p>
-          <p className='mb-auto'>B.Tech in IT @ VNR VJIET <br /> 2020-2024</p>
+          <p className='mb-auto mt-3'>B.Tech in IT @ VNRVJIET <br /> 2020-2024<br />Hyderabad, Telangana, India</p>
         </div>
         <img src={dpBackground} alt="My Face" className='h-60 w-60 align-middle sm:mx-auto sm:my-2' />
       </div>
@@ -33,6 +33,23 @@ Always open to network be it work or music. I have a deep interest in Data Scien
           <img src={Drums} alt="Drums" className='lg:h-20 lg:w-20 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:rounded-lg duration-200 hover:shadow-[#007aff]'/>
         </div>
       </div>
+      <div className='mt-5 flex flex-col justify-center'>
+        <p className='text-[#007aff] font-semibold italic text-center'>Connect with me</p>
+        <div className='flex flex-row justify-center'>
+          <img src={LinkedIn} alt="LinkedIn" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
+          <img src={Discord} alt="Discord" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
+          <img src={Twitter} alt="Twitter" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
+          <img src={Instagram} alt="Instagram" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
+          <img src={Facebook} alt="Facebook" className='mx-1 lg:h-10 lg:w-10 p-2 sm:h-[50px] hover:bg-white hover:shadow-md hover:border-0 hover:rounded-lg duration-200 hover:border-b-2 hover:border-[#007aff]'/>
+        </div>
+      </div>
+
+
+
+
+
+
+
       <div className='mt-5 flex flex-col justify-center'>
         <p className='text-[#007aff] font-semibold italic text-center'>Connect with me</p>
         <div className='flex flex-row justify-center'>
