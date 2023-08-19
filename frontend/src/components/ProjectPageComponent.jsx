@@ -8,7 +8,7 @@ function ProjectPageComponent() {
 
   const [projects, setProjects] = useState([]);
   const fetchProjects = async() => {
-    const response = await axios.get(`http://localhost:3001/projects/`);
+    const response = await axios.get(`https://portfolio-9pqsoxvhx-anirudh-bukka.vercel.app/projects`);
     const data = response.data;
     setProjects(data["projects"]);
     // console.log(data["projects"]);
