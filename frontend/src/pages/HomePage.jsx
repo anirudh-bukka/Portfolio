@@ -26,7 +26,7 @@ function HomePage() {
                     <p className="text-8xl pb-2 font-semibold text-[#007aff]">Anirudh</p>
                     <p className='text-8xl pb-2'>.</p>
                 </div>
-                <p className='text-xl'>I do Web Development in Java Spring Boot, MERN stack | Data Analysis and Machine Learning in Python | Guitar, Keyboard, Drums | Basketball, Cricket, Swim</p>
+                <p className='text-xl'>I do Web Development in Java Spring Boot, MERN stack | Data Analysis and Machine Learning in Python | Guitar, Keyboard, Drums | Basketball, Cricket, Swimming</p>
                 <p className='text-lg font-bold'><i>Inspired by big dreams and dank memes.</i></p>
             </div>
             <div>
