@@ -56,7 +56,7 @@ function HomePage() {
             <p className='  text-3xl text-center font-bold text-[#007aff]'>Experience</p>
             <div className='flex flex-row'>
                 <p className='text-2xl mx-auto'>Projects & Hackathons</p>
-                <p className='text-2xl mx-auto'>Internships & Volunteering</p>
+                <p className='text-2xl mx-auto'>Experience</p>
             </div>
             <div className='flex flex-row justify-evenly'>
                 <Link className='flex flex-col w-1/3 p-3 m-2'><ProjectCard /></Link>

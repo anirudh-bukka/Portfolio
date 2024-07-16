@@ -19,6 +19,22 @@ function InternshipCard() {
       {/* {internships.length > 0 && internships.map((internship, idx) => { */}
         {/* return ( */}
           <div className='flex flex-col border-2 rounded-lg mb-4 p-2 hover:bg-white hover:-translate-x-1 hover:-translate-y-1 duration-200 hover:border-r-4 hover:border-b-4 hover:border-black'>
+              <div className='flex flex-row justify-between'>
+                <p className='text-lg font-bold text-[#007aff]'>Oracle</p>
+                <p className=' text-lg font-bold'>Associate Quality Analyst</p>
+              </div>
+              <p className='my-1'><i>August'24 - Present</i></p>
+              <p className='my-1'>Responsible for automating implementation, enhancing quality of features and implementing CI/CD of the application - Oracle Communications Unified Assurance</p>
+          </div>
+          <div className='flex flex-col border-2 rounded-lg mb-4 p-2 hover:bg-white hover:-translate-x-1 hover:-translate-y-1 duration-200 hover:border-r-4 hover:border-b-4 hover:border-black'>
+              <div className='flex flex-row justify-between'>
+                <p className='text-lg font-bold text-[#007aff]'>Oracle</p>
+                <p className=' text-lg font-bold'>Project Intern</p>
+              </div>
+              <p className='my-1'><i>January'24 - July'24</i></p>
+              <p className='my-1'>Automated implementation and enhanced quality of features of the application - Oracle Communications Unified Assurance</p>
+          </div>
+          <div className='flex flex-col border-2 rounded-lg mb-4 p-2 hover:bg-white hover:-translate-x-1 hover:-translate-y-1 duration-200 hover:border-r-4 hover:border-b-4 hover:border-black'>
             <div className='flex flex-row justify-between'>
               <p className='text-lg font-bold text-[#007aff]'>Dynamatix</p>
               <p className=' text-lg font-bold'>SDE Internship</p>
